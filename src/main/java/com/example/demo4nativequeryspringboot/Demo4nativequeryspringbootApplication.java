@@ -1,13 +1,15 @@
 package com.example.demo4nativequeryspringboot;
-
 import com.example.demo4nativequeryspringboot.entity.Employee;
 import com.example.demo4nativequeryspringboot.servic.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import java.util.Scanner;
+
+/**
+ * @author Soumya
+ */
 
 @SpringBootApplication
 public class Demo4nativequeryspringbootApplication implements CommandLineRunner {
